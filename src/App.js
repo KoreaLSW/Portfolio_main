@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 import About from './component/about/About';
 import Contact from './component/contact/Contact';
@@ -14,6 +15,19 @@ function App() {
             <Project />
             <Contact />
         </div>
+=======
+import logo from './logo.svg';
+import './App.css';
+import { Outlet } from 'react-router-dom';
+import MenuBar from './components/MenuBar';
+
+function App() {
+    return (
+        <>
+            <MenuBar />
+            <Outlet />
+        </>
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
     );
 }
 

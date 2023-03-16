@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,18 @@
 
 #root {
     overflow-x: hidden;
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
 }
 
 body {
@@ -33,9 +46,15 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
     /* background: linear-gradient(180deg, #dbe9f6 15%, #fefcc9 44%, #f7d0d5 100%); */
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     background-repeat: no-repeat;
+=======
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
 }
 
 code {

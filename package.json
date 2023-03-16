@@ -1,18 +1,31 @@
 {
+<<<<<<< HEAD
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
+=======
+  "name": "react_protfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
     "three": "^0.150.1",
     "typeit": "^8.7.1",
     "typeit-react": "^2.6.4",
+=======
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "5.0.1",
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -42,6 +55,10 @@
   "devDependencies": {
     "eslint-config-react-app": "^7.0.1",
     "start": "^5.1.0",
+<<<<<<< HEAD
+=======
+    "tailwindcss": "^3.2.7",
+>>>>>>> e1608cf87dad6e182cbc038dd44a66ea03acf944
     "yarn": "^1.22.19"
   }
 }
